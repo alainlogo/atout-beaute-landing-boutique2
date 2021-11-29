@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'M PLUS 1', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+
+nav{
+    height: 70px;
+    background-color: rgb(111, 111, 214);
+}
+.bou__header{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #F6F6F6; */
+}
+.header__text{
+padding: 150px;
+}
+.header__text h1{
+    font-size: 170px;
+    text-transform: uppercase;
+}
+.header__text p{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.la__video{
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    right: 0;
+    bottom: 170px;
+}
+.header__bloc{
+    width: 85%;
+    display: flex;
+}
+
+
+
+.le__bloc{
+    margin-top: 250px;
+    width: 33.33%;
+    height: 250px;
+    display: flex;
+    background-color: #FFD8B3;
+    position: relative;
+    transition: 0.3s;
+}
+.bloc1{
+    color: white;
+    background-image: url(../img/pexels-julie-aagaard-2120584.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+.bloc2{
+    background-image: url(../img/papillon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+.bloc3{
+    background-image: url(../img/p_pierre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+.bloc1:hover {
+    filter: none;
+}
+.bloc2:hover {
+    filter: none;
+}
+.bloc3:hover {
+    filter: none;
+}
+.bloc__text{
+    padding: 23px;
+}
+.bloc__text h2{
+    text-transform: uppercase;
+}
+.le__bloc img{
+    position: absolute;
+    width: 35%;
+    bottom: 0;  
+    right: 20px;  
+}
+
+
+
+.section__bou__coll{
+    height: 800px;
+    width: 70%;
+    margin: auto;
+}
+.bou__coll{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.gauche, .droite{
+    width: 50%;
+    transition: 0.3s;
+
+}
+.bou__coll h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.gauche p{
+    letter-spacing: 5px;
+}
+.droite h3{
+    margin: 10px;
+}
+.coll__pic{
+    height: 600px;
+    width: 500px;
+}
+.pic1{
+    background-image: url(../img/lexie-janney-Hk0SKG616T0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+.pic1:hover{
+    background-position: left;
+}
+.pic2{
+    background-image: url(../img/pexels-arsham-haghani-3584505.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+.pic2:hover{
+    background-position: left;
+}
+
+.section__bou__btn h2{
+ text-transform: uppercase;
+ text-align: center;
+}
+.btn{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    margin: 15px;
+    color: black;
+}

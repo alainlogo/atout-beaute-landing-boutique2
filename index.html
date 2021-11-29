@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="section__bou__header">
+        <div class="bou__header">
+            <nav></nav>
+            <div class="header__text">
+                <p>fournisseur d’accéssoires et bijoux fantaisie</p>
+                <h1>atout beauté</h1>
+            </div>
+
+            <div class="header__bloc">
+                <div class=" le__bloc bloc1">
+                    <div class="bloc__text">
+                        <p>nouveauté</p>
+                        <h2>écharpes</h2>
+                    </div>
+                </div>
+                <div class=" le__bloc bloc2">
+                    <div class="bloc__text">
+                        <p>nouveauté</p>
+                        <h2>accéssoires cheveux</h2>
+                    </div>
+                </div>
+                <div class=" le__bloc bloc3">
+                    <div class="bloc__text">
+                        <p>nouveauté</p>
+                        <h2>pierres naturelles</h2>
+                    </div>
+                    <!-- <img src="assets/img/fille 1-min.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="la__video">
+                <video  autoplay muted loop>
+                    <source src="assets/img/pexels-rodnae-productions-8184066.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__bou__coll">
+        <div class="bou__coll">
+            <div class="gauche">
+                <p>nouvelle collection</p>
+                <h2>hiver-automne 2021</h2>
+                <div class="coll__pic pic1">
+                </div>
+            </div>
+            <div class="droite">
+                <div class="coll__pic pic2">
+                </div>
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, dolorem. Velit explicabo blanditiis beatae repudiandae natus atque ratione dolorum corrupti!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__bou__btn">
+        <h2>contactez-nous</h2>
+        <div class="btn">
+            <a href="">06 00 00 00 00</a>
+            <a href="">formulaire d'inscription</a>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+		<script src="assets/js/script.js"></script>
+
+        <script>
+            TweenMax.from('.header__text h1', 2, {
+              delay: .6,
+              x: -1000,
+              ease: Circ.easeInOut
+            })
+        
+            //TweenMax.from('.header__text p', 2, {
+            //  delay: 1,
+            //  x: 1000,
+            //  ease: Circ.easeInOut
+            // })
+            TweenMax.to('.la__video', 2, {
+                delay: .5,
+                width: '50%',
+                ease: Expo.easeInOut
+            })
+
+
+            TweenMax.to('.bloc1', 2, {
+                delay: .5,
+                y: '-200px',
+                ease: Circ.easeInOut
+
+            })
+            
+            TweenMax.to('.bloc2', 2, {
+                delay: .7,
+                y: '-200px',
+                ease: Circ.easeInOut
+
+            })
+            
+            TweenMax.to('.bloc3', 2, {
+                delay: .9,
+                y: '-200px',
+                ease: Circ.easeInOut
+
+            })
+          </script>
+
+</body>
+</html>
